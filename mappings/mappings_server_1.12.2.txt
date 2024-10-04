@@ -5782,7 +5782,7 @@ oo net/minecraft/world/WorldServer
 	V field_147489_T
 	W field_94579_S
 	a ()V func_73042_a
-	a (IIZ)Z func_175680_a
+	a (IIZ)Z isChunkLoaded
 	a (Laed;Let;)Z func_175660_a
 	a (Laml;)Z func_147485_a
 	a (Lamx;)V func_72963_a
@@ -5816,11 +5816,11 @@ oo net/minecraft/world/WorldServer
 	c ()V func_73051_P
 	c (Let;Laow;II)V func_175641_c
 	c (Lvg;)V func_72847_b
-	d ()V func_72835_b
+	d ()V doTick
 	d (Lvg;)Z func_72942_c
-	e ()V func_72854_c
+	e ()V everyoneSleeping
 	f ()V func_73053_d
-	g ()Z func_73056_e
+	g ()Z everyoneDeeplySleeping
 	h ()V func_72974_f
 	i ()V func_184162_i
 	j ()V func_147456_g
@@ -16092,7 +16092,7 @@ alo net/minecraft/init/Enchantments
 	B LURE
 	C MENDING
 	D VANISHING_CURSE
-	a (Ljava/lang/String;)Lalk; func_185295_a
+	a (Ljava/lang/String;)Lalk; register
 alp net/minecraft/enchantment/EnchantmentFireAspect
 	a (I)I func_77321_a
 	b ()I func_77325_b
@@ -16460,7 +16460,7 @@ amu net/minecraft/world/World
 	a (IIII)V func_72975_g
 	a (IIIIIIZ)Z func_175663_a
 	a (IILaxw;)V func_147467_a
-	a (IIZ)Z func_175680_a
+	a (IIZ)Z isChunkLoaded
 	a (ILet;I)V func_175669_a
 	a (IZDDDDDD[I)V func_175720_a
 	a (J)V func_82738_a
@@ -30132,7 +30132,7 @@ bsb net/minecraft/client/multiplayer/WorldClient
 	a (IIIIII)V func_73031_a
 	a (IIIILjava/util/Random;ZLet$a;)V func_184153_a
 	a (IILaxw;)V func_147467_a
-	a (IIZ)Z func_175680_a
+	a (IIZ)Z isChunkLoaded
 	a (ILvg;)V func_73027_a
 	a (Laed;DDDLqe;Lqg;FF)V func_184148_a
 	a (Lb;)Lc; func_72914_a
